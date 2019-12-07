@@ -1,0 +1,16 @@
+input{
+    background-color: #1c382f;
+    border-color: #183129;
+    box-shadow:25px rgba(0, 0, 0, .1);
+    padding: 1em;
+    color: white;
+    font-size: 2em; 
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, .5);
+}
+
+input:focus{
+    box-shadow:25px rgba(0, 0, 0, .5);
+}
