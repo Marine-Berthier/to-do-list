@@ -43,8 +43,10 @@
     "build:prod:win": "set NODE_ENV=production && webpack --mode production"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.8.0"
   }
 }

@@ -7,6 +7,9 @@ h2{
     font-weight: bold; 
 }
 
+label{
+    display: inline;
+}
 
 .list-item{
     background-color: #eee;
@@ -22,8 +25,16 @@ h2{
 
 .list-item--done {
     background-color: rgba(238, 238, 238, 0.5);
-}
-
-.list-item--p{
     text-decoration: line-through; 
 }
+
+.task-trash, .task-fav{
+    float: right; 
+    margin: 0 .2em; 
+    cursor: pointer; 
+}
+
+.task--fav{
+    background-color: moccasin; 
+}
+
