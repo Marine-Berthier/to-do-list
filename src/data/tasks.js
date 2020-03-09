@@ -1,25 +1,25 @@
 export default [
   {
     id: 1,
-    label: 'Coder une todolist en impératif',
+    label: 'Do the laundry',
     done: true,
     fav: true,
   },
   {
     id: 13,
-    label: 'Coder une todolist en React',
+    label: 'Go shopping',
     done: false,
     fav: false, 
   },
   {
     id: 4,
-    label: 'Appeler Jean-Marc',
+    label: 'Call Chantal',
     done: false,
     fav: true,
   },
   {
     id: 8,
-    label: 'Préparer des crêpes',
+    label: 'Clean the car',
     done: false,
     fav: true,
   },
