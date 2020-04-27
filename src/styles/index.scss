@@ -4,8 +4,10 @@
 body {
   font-family: sans-serif;
   color: black;
-  background-color: #2C5849;
+  background-image: url('./background.png');
+  background-size: 70%;
   display: flex; 
   flex-direction: column; 
   align-items: center; 
 }
+

@@ -1,16 +1,14 @@
 input{
-    background-color: #1c382f;
-    border-color: #183129;
-    box-shadow:25px rgba(0, 0, 0, .1);
-    padding: 1em;
+    background-color: #1C8686;
+    border-color: #1C8686;
+    box-shadow:none;
+    padding: .5em;
     color: white;
-    font-size: 2em; 
+    font-size: 1.5em; 
+    border-radius: .2em;
 }
 
 ::placeholder {
     color: rgba(255, 255, 255, .5);
 }
 
-input:focus{
-    box-shadow:25px rgba(0, 0, 0, .5);
-}

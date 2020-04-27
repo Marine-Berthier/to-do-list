@@ -1,6 +1,6 @@
 h2{
-    color: white; 
-    border-bottom: 1px white solid; 
+    color: #1F2F45; 
+    border-bottom: 1px #1F2F45 solid; 
     padding: .6em 0; 
     margin: 2em 0em .6em 0em;
     text-align: left;
@@ -23,6 +23,11 @@ label{
     justify-content: flex-start;
 }
 
+.task--fav{
+    background-color: #ED9247;
+    border-color: #ED9247;
+}
+
 .list-item--done {
     background-color: rgba(238, 238, 238, 0.5);
     text-decoration: line-through; 
@@ -34,7 +39,5 @@ label{
     cursor: pointer; 
 }
 
-.task--fav{
-    background-color: moccasin; 
-}
+
 
